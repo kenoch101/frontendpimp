@@ -1,0 +1,53 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin-top: 1rem;
+}
+nav .nav-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav .nav-link {
+    padding: 0 0.75rem;
+}
+nav .nav-link a {
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+nav .nav-link a.active {
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #722fcd;
+}
+nav .logo img, nav .small-logo img {
+    width: 160px;
+}
+
+/* When the browser is at least 600px and above */
+@media screen and (max-width: 600px) {
+    nav .nav-link {
+        text-align: center;
+        padding: 0
+    }
+    nav .nav-link a {
+        font-size: 13px;
+        margin: 0;
+    }
+    nav .nav-link.logo {
+        text-align: center;
+        flex: 1 0 100%;
+        margin-bottom: 1rem;
+    }
+}
