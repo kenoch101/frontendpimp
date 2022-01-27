@@ -1,0 +1,823 @@
+
+/* Smartphones (portrait and landscape) ----------- */
+@media  screen and  (min-height: 915px){
+  .act1{
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+    left: 230px;
+    bottom:-19px !important;
+  }
+  .act2{
+    position: absolute;
+    width: 180px;
+    z-index: 1;
+    top:1060px;
+    right:250px !important;
+  }
+  .act3{
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    left: 180px;
+    top:1370px;
+  }
+}
+@media  screen and  (min-height: 883px){
+  .act1{
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+    left: 230px;
+    bottom:-10px !important;
+  }
+  .act2{
+    position: absolute;
+    width: 180px;
+    z-index: 1;
+    top:1060px;
+    right:250px !important;
+  }
+  .act3{
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    left: 180px;
+    top:1370px;
+  }
+}
+@media  screen and  (min-height: 800px){
+  .act1{
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+    left: 230px;
+    bottom:-100px !important;
+  }
+  .act2{
+    position: absolute;
+    width: 180px;
+    z-index: 1;
+    top:1060px;
+    right:200px !important;
+  }
+  .act3{
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    left: 180px;
+    top:1370px;
+  }
+}
+
+@media only screen and (min-device-width : 412px) and (max-device-width : 480px)  {
+  .heropage{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  .heropage p{
+   max-width: 380px;
+   text-align: left;
+}
+  .logo {
+     display: inline-block;
+   }
+   .logo img {
+     width: 175px;
+     vertical-align: middle;
+   }
+   .navlinks{
+     display: inline-block;
+     font-size: 10px;
+   }
+   nav {
+    padding-left: 10px;
+    padding-right: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:30px;
+  }
+   .backimage{
+     display: none;
+   }
+   .box111{
+   margin-top:190px;
+   }
+   .row{
+     display: none;
+   }
+   .player{
+     width: 600px !important;
+     position: absolute;
+     bottom:60px !important;
+     right:-70px;
+   }
+   .box{
+     width: 90%;
+     margin-left:20px;
+     padding-top:80px;
+     padding-right:10px;
+   }
+   .first h1{
+     font-size: 20px;
+     max-width: 300px;
+     line-height: 30px;
+     padding-top: 10px;
+   }
+   .first p{
+     font-size: 12px;
+    max-width: 300px;
+    line-height: 30px;
+    padding-top: 5px;
+    text-align: left;
+    padding-bottom:100px;
+  }
+ 
+  .second h1{
+    padding-top: 35px;
+    font-size: 20px;
+    padding-left:100px ;
+  }
+  .contract{
+    padding-top: 15px;
+    font-size: 8px;
+    padding-left:100px;
+    color:#a73fd8;
+  }
+  .second p{
+    font-size: 12px;
+   max-width: 300px;
+   line-height: 30px;
+   padding-top: 5px;
+   text-align: left;
+ }
+  .third h1{
+    padding-top: 15px;
+    font-size: 20px;
+    padding-left:0px ;
+    margin: 0px;
+  }
+  .third p{
+    font-size: 12px;
+   max-width: 300px;
+   line-height: 30px;
+   padding-top: 5px;
+   text-align: left;
+ }
+ .gameimage{
+  width: 380px;
+  position: absolute;
+  right:-105px;
+  top:1910px;
+ }
+ .roadleads-container{
+   padding-left: 20px;
+ }
+  .act1{
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+    left: 230px;
+    bottom:-611px;
+  }
+  .act2{
+    position: absolute;
+    width: 180px;
+    z-index: 1;
+    top:1060px;
+    right:260px;
+  }
+  .act3{
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    left: 180px;
+    top:1370px;
+  }
+  .fourth{
+    padding:30px;
+  }
+  .btn{
+    margin-left:40px;
+    font-weight: bold;
+  }
+  .fourth li{
+    padding-right:5px;
+    padding-top: 15px;
+  }
+  .roadlist{
+    font-size: 10px;
+  }
+  .sideroadmap_background{
+    display: none;
+  }
+.socialicon{
+  font-size: 25px;
+  margin:0 auto;
+}
+.sociallinks{
+  margin:0 auto;
+  align-content: center;
+  margin-left: 135px;
+}
+}
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+  
+  
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+   
+      body {
+        /* The image used */
+           background-color: #cccccc; /* Used if the image is unavailable */
+           height: 100hv; /* You must set a specified height */
+           background-position: center; /* Center the image */
+           background-repeat: no-repeat; /* Do not repeat the image */
+           background-size: cover; /* Resize the background image to cover the entire container */
+       }
+       html {
+           box-sizing: border-box;
+         }
+         *, *::before, *::after {
+           box-sizing: border-box;
+           margin: 0;
+           padding: 0;
+         }
+         nav {
+          padding-left: 10px;
+          padding-right: 1px;
+          display: flex;
+          padding-top:377px;
+        }
+         .simage{
+           width: 100px;
+         }
+       .row{
+         display: flex;
+         padding-left:50px;
+       }
+         .logo {
+           display: inline-block;
+         }
+         .logo img {
+           width: 175px;
+           vertical-align: middle;
+         }
+         .nav-links {
+           list-style: none;
+           display: flex;
+         }
+         .nav-item {
+           display: inline-block;
+           padding: 10px 15px;
+           text-decoration: none;
+           color: white;
+         }
+         .nav-item a {
+           text-decoration: none;
+           color:black;
+         }
+         .nav-item a:hover{
+           text-decoration: none;
+           border-bottom: 2px #722fcd solid;
+           transition: border-bottom .1s ;
+         }
+         .active{
+           border-bottom: 2px #722fcd solid;
+           width: 20px;
+         }
+         .btn-image a{
+             display: flex;
+             color:black;
+             align-items: center;
+             background: white;
+             text-decoration: none;
+             border-radius: 15px;
+             padding:1px 15px 2px;
+             -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 8px 4px rgba(0,0,0,0); 
+             box-shadow: 0px 10px 13px -7px #000000, 1px 1px 8px 4px rgba(0,0,0,0);
+         }
+         .btn-image a:hover{
+           background: #722fcd;
+           color:white;
+         }
+         .heropage{
+             display: flex;
+             flex-direction: row;
+             padding-left:40px;
+             top:2111px;
+             height: 190px;
+         }
+         .heropage h1{
+             font-size:45px;
+             color:#722fcd;
+         }
+         .heropage subtext{
+           font-size: 30px;
+           color:#a73fd8;
+       }
+       .heropage p{
+           padding-top: 10px;
+           font-size: 15px;
+           line-height: 22px;
+       }
+       .player{
+           width: 700px;
+           z-index: -1;
+           padding-left: 40px;
+         }
+         .startbtn{
+           position: relative;
+           right:400px;
+           bottom:150px;
+         }
+         .box{
+             background: white;
+             -webkit-clip-path: polygon(0 0, 2%, 100% 100%, 0% 100%); clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 100%);
+             margin: 0 110px;
+             border-radius: 50px;
+             padding-top:170px;
+         }
+         .background1{
+           position: fixed;   width: 300px;
+           top:610px;
+       
+         }
+         .background2{
+      
+           width: 300px;
+           right: 100px;
+           top:980px;
+         }
+         .background3{
+         
+           width: 300px;
+           top:1380px;
+         }
+       .first{
+             align-items: center;
+             width:600px;
+             padding-left:50px;
+             line-height: 25px;
+         }
+       .first h1{
+           margin-bottom:40px;
+           color:#a73fd8;
+       }
+       .second{
+           width:100%;
+           padding-top:150px;
+           margin-left: 300px;
+           padding-right:300px;
+           line-height: 25px;
+       }
+       .second p{
+        padding-right:5px;
+       }
+       .this{
+         padding-right:60px;
+       }
+       .second h1{
+         margin-bottom:30px;
+         color:#a73fd8;
+       }
+       .third{
+         align-items: center;
+         width:600px;
+         padding-left:50px;
+         padding-top:180px;
+         line-height: 25px;
+       }
+       .third h1{
+       margin-bottom:30px;
+       color:#a73fd8;
+       }
+       .fourth{
+         width: 100%;
+         display: flex;
+         margin-top: 140px;
+         align-content: flex-end;
+         margin-bottom:50px;
+       }
+       .fourth li img{
+         width: 15px;
+         padding-right:5px;
+       }
+       .gameimage{
+         width: 380px;
+         position: absolute;
+         right:205px;
+         top:1690px;
+       }
+       .btn{
+         padding:8px 10px 8px 10px;
+         margin-bottom: 30px;
+         border-radius: 20px;
+         background:#8f00b7;
+         color:white;
+         border:none;
+         text-decoration: none;
+         -webkit-box-shadow: 1px 2px 15px -6px #000000; 
+       box-shadow: 1px 2px 15px -6px #000000;
+       }
+       .fourth li{
+         text-decoration: none;
+         list-style: none;
+         padding-bottom:30px;
+       }
+       .marketimg{
+             width: 400px;
+             position: absolute;
+             left:850px;
+             top:600px;
+             z-index:1;
+         }
+         .PixekPennyimg{
+           width: 260px;
+           position: absolute;
+           left:170px;
+           top:990px;
+           z-index:1;
+       }
+       .chaosimg{
+           width: 400px;
+           position: absolute;
+           left:890px;
+           top:1270px;
+           z-index:1;
+       }
+       .roadmap{
+         padding:40px 0px 0px 120px;
+         width: 100%;
+       }
+       .roadmap h1{
+         color:#8f00b7
+       }
+       .roadmap_background{
+          position: absolute;
+          width: 300px;
+          z-index: -1;
+          opacity: 0.3;
+          left:150px;
+       }
+       .sideroadmap_background{
+         position: absolute;
+         width: 300px;
+         right:0px;
+         transform: rotate(45deg);
+       }
+       .dash{
+         width: 60px;
+         height: 2px;
+         background: #8f00b7;
+       }
+       .roadlist{
+         padding-top: 20px;
+         display: flex;
+         color:#8f00b7;
+         font-weight: 500;
+         width: 100%;
+       }
+        li a{
+         text-decoration: none;
+       }
+       ul{
+         padding-left:0px;
+         list-style-position: inside;
+         display: flex;
+       }
+       .link{
+         padding-left:10px;
+         width: 100px;
+         cursor: pointer;
+       }
+       .activelink{
+         background: white;
+         width: 100px;
+         height: 20px;
+         border-radius: 20px;
+         font-weight: 400;
+       }
+       .roadleads{
+         padding-top:20px;
+       }
+       .roadleads li{
+         padding-top:5px;
+       }
+       .socialicon{
+         padding-top:80px;
+         margin: 0 auto;
+         width: 100%;
+         text-align: center;
+       }
+       .sociallinks li{
+         list-style: none;
+         padding-left:10px;
+         margin: 0px auto;
+         padding-bottom:15px;
+       }
+       .sociallinks li a{
+         color:#8f00b7 !important;
+       }
+       .sociallinks{
+         display: flex;
+         width: 20%;
+         margin: 0 auto;
+       }
+       #q3{
+         display:none;
+       }
+       #q2{
+         display:none;
+       }
+       #q4{
+         display:none;
+       }
+      
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+   
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+   
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+    }
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+    }
+
+    @media only screen  and (min-width : 360px) {
+      /* Styles */
+      .heropage{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+      }
+      .heropage p{
+       max-width: 380px;
+       text-align: left;
+    }
+      .logo {
+         display: inline-block;
+       }
+       .logo img {
+         width: 175px;
+         vertical-align: middle;
+       }
+       nav {
+        padding-left: 10px;
+        padding-right: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top:30px;
+      }
+       .navlinks{
+         display: inline-block;
+         font-size: 10px;
+       }
+       nav{
+         display: flex;
+         flex-direction: column;
+       }
+       .backimage{
+         display: none;
+       }
+       .box111{
+       margin-top:190px;
+       }
+       .row{
+         display: none;
+       }
+       .player{
+         width: 600px !important;
+         position: absolute;
+         top:310px !important;
+         right:-70px;
+       }
+       .box{
+         width: 90%;
+         margin-left:20px;
+         padding-top:80px;
+         padding-right:10px;
+       }
+       .first h1{
+         font-size: 20px;
+         max-width: 300px;
+         line-height: 30px;
+         padding-top: 10px;
+       }
+       .first p{
+         font-size: 12px;
+        max-width: 300px;
+        line-height: 30px;
+        padding-top: 5px;
+        text-align: left;
+        padding-bottom:100px;
+      }
+     
+      .second h1{
+        padding-top: 35px;
+        font-size: 20px;
+        padding-left:100px ;
+      }
+      .contract{
+        padding-top: 15px;
+        font-size: 8px;
+        padding-left:100px;
+        color:#a73fd8;
+      }
+      .second p{
+        font-size: 12px;
+       max-width: 300px;
+       line-height: 30px;
+       padding-top: 5px;
+       text-align: left;
+     }
+      .third h1{
+        padding-top: 15px;
+        font-size: 20px;
+        padding-left:0px ;
+        margin: 0px;
+      }
+      .third p{
+        font-size: 12px;
+       max-width: 300px;
+       line-height: 30px;
+       padding-top: 5px;
+       text-align: left;
+     }
+     .gameimage{
+      width: 380px;
+      position: absolute;
+      right:-105px;
+      top:1910px;
+     }
+     .roadleads-container{
+       padding-left: 20px;
+     }
+      .act1{
+        position: absolute;
+        width: 220px;
+        z-index: 1;
+        left: 200px;
+        bottom:-200px
+      }
+      .act2{
+        position: absolute;
+        width: 180px;
+        z-index: 1;
+        top:1060px;
+        right:200px;
+      }
+      .act3{
+        position: absolute;
+        width: 330px;
+        z-index: 1;
+        left: 110px;
+        top:1390px;
+      }
+      .fourth{
+        padding:30px;
+      }
+      .btn{
+        margin-left:40px;
+        font-weight: bold;
+      }
+      .fourth li{
+        padding-right:5px;
+        padding-top: 15px;
+      }
+      .roadlist{
+        font-size: 10px;
+      }
+      .sideroadmap_background{
+        display: none;
+      }
+    .socialicon{
+      font-size: 25px;
+      margin:0 auto;
+    }
+    .sociallinks{
+      margin:0 auto;
+      align-content: center;
+      margin-left: 135px;
+    }
+
+      }
+    
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+   
+    }
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+   
+    }
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+   
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+   
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+   
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    }
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+       
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+       
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .logo{
+      width: 100px !important;
+    }
+}   
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    }
+
+    @media only screen  and (min-width : 810px) {
+     
+
+      }

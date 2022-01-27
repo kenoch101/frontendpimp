@@ -1,0 +1,300 @@
+body {
+  /* The image used */
+     background-color: #cccccc; /* Used if the image is unavailable */
+     height: 100hv; /* You must set a specified height */
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+ }
+ html {
+     box-sizing: border-box;
+   }
+   *, *::before, *::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+   } 
+  
+   nav {
+     padding-left: 10px;
+     padding-right: 1px;
+     display: flex;
+     justify-content: space-between;
+
+     padding-top:30px;
+   }
+   .simage{
+     width: 100px;
+   }
+ .row{
+   display: flex;
+   padding-left:50px;
+   
+ }
+   .logo {
+     display: inline-block;
+   }
+   .logo img {
+     width: 175px;
+     vertical-align: middle;
+   }
+   .nav-links {
+     list-style: none;
+     display: flex;
+   }
+   .nav-item {
+     display: inline-block;
+     padding: 15px 10px;
+     text-decoration: none;
+     color: white;
+   }
+   .nav-item a {
+     text-decoration: none;
+     color:black;
+   }
+   .nav-item a:hover{
+     text-decoration: none;
+     border-bottom: 2px #722fcd solid;
+     transition: border-bottom .1s ;
+   }
+   .active{
+     border-bottom: 2px #722fcd solid;
+     width: 20px;
+   }
+   .btn-image a{
+       display: flex;
+       color:black;
+       align-items: center;
+       background: white;
+       text-decoration: none;
+       border-radius: 15px;
+       padding:1px 15px 2px;
+       -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 1px 8px 4px rgba(0,0,0,0); 
+       box-shadow: 0px 10px 13px -7px #000000, 1px 1px 8px 4px rgba(0,0,0,0);
+   }
+   .btn-image a:hover{
+     background: #722fcd;
+     color:white;
+   }
+   .heropage{
+       display: flex;
+       flex-direction: row;
+       padding-left: 20px;
+       height: 410px;
+   }
+   .heropage h1{
+       font-size: 45px;
+       color:#722fcd;
+   }
+   .heropage subtext{
+     font-size: 30px;
+     color:#a73fd8;
+ }
+ .heropage p{
+     padding-top: 10px;
+     font-size: 15px;
+     line-height: 22px;
+ }
+ .player{
+     width:900px;
+     padding-left: 40px;
+   }
+   .startbtn{
+     position: relative;
+     right:400px;
+     bottom:150px;
+   }
+   .box{
+       background: white;
+       -webkit-clip-path: polygon(0 0, 2%, 100% 100%, 0% 100%); clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 100%);
+       margin: 0 110px;
+       border-radius: 50px;
+       padding-top:170px;
+   }
+   .background1{
+     position: fixed;   width: 300px;
+     top:610px;
+ 
+   }
+   .background2{
+
+     width: 300px;
+     right: 100px;
+     top:980px;
+   }
+   .background3{
+   
+     width: 300px;
+     top:1380px;
+   }
+ .first{
+       align-items: center;
+       width:600px;
+       padding-left:20px;
+       line-height: 25px;
+   }
+ .first h1{
+     margin-bottom:10px;
+     color:#a73fd8;
+ }
+ .second{
+  align-items: center;
+  width:600px;
+  padding-left:20px;
+  line-height: 25px;
+}
+.second h1{
+margin-bottom:10px;
+color:#a73fd8;
+}
+
+ .third{
+   align-items: center;
+   width:600px;
+   padding-left:10px;
+   padding-top:180px;
+   line-height: 25px;
+ }
+ .third h1{
+ margin-bottom:30px;
+ color:#a73fd8;
+ }
+ .fourth{
+   width: 100%;
+   display: flex;
+   align-content: flex-end;;
+ }
+ .fourth li img{
+   width: 15px;
+   padding-right:5px;
+ }
+ .gameimage{
+   width: 380px;
+   position: absolute;
+   right:205px;
+   top:1690px;
+ }
+ .btn{
+   padding:8px 10px 8px 10px;
+   margin-bottom: 30px;
+   border-radius: 20px;
+   background:#8f00b7;
+   color:white;
+   border:none;
+   text-decoration: none;
+   -webkit-box-shadow: 1px 2px 15px -6px #000000; 
+ box-shadow: 1px 2px 15px -6px #000000;
+ }
+ .fourth li{
+   text-decoration: none;
+   list-style: none;
+   padding-bottom:30px;
+ }
+ .marketimg{
+       width: 400px;
+       position: absolute;
+       left:850px;
+       top:600px;
+       z-index:1;
+   }
+   .PixekPennyimg{
+     width: 260px;
+     position: absolute;
+     left:170px;
+     top:990px;
+     z-index:1;
+ }
+ .chaosimg{
+     width: 400px;
+     position: absolute;
+     left:890px;
+     top:1270px;
+     z-index:1;
+ }
+ .roadmap{
+  padding-left:20px;
+  margin-top: 30px;
+ }
+ .roadmap h1{
+   color:#8f00b7
+ }
+ .roadmap_background{
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    opacity: 0.3;
+    left:150px;
+ }
+ .sideroadmap_background{
+   position: absolute;
+   width: 300px;
+   right:0px;
+   transform: rotate(45deg);
+ }
+ .dash{
+   width: 60px;
+   height: 2px;
+   background: #8f00b7;
+ }
+ .roadlist{
+   padding-top: 20px;
+   display: flex;
+   color:#8f00b7;
+   font-weight: 500;
+   width: 100%;
+ }
+  li a{
+   text-decoration: none;
+ }
+ ul{
+   padding-left:0px;
+   list-style-position: inside;
+   display: flex;
+ }
+ .link{
+   padding-left:5px;
+   width: 100px;
+   cursor: pointer;
+ }
+ .activelink{
+   background: white;
+   width: 100px;
+   height: 20px;
+   border-radius: 20px;
+   font-weight: 400;
+ }
+ .roadleads{
+   padding-top:20px;
+ }
+ .roadleads li{
+   padding-top:5px;
+ }
+ .socialicon{
+   padding-top:80px;
+   margin: 0 auto;
+   width: 100%;
+   text-align: center;
+ }
+ .sociallinks li{
+   list-style: none;
+   padding-left:10px;
+   margin: 0px auto;
+   padding-bottom:15px;
+ }
+ .sociallinks li a{
+   color:#8f00b7 !important;
+ }
+ .sociallinks{
+   display: flex;
+   width: 20%;
+   margin: 0 auto;
+ }
+ #q3{
+   display:none;
+ }
+ #q2{
+   display:none;
+ }
+ #q4{
+   display:none;
+ }
